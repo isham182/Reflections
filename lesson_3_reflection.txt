@@ -1,4 +1,9 @@
 Q. When would you want to use a remote repository rather than keeping all your work local?
 A. You would want to use a remote depository when you are working from a different computer, or someone else is also making changes
 
+Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A. If Git always automatically updated everytime someone made a repository you might end up with a version on your computer you dont want.
+   So being able to manually pull allows you to do so only when you know its safe to do so.
+
 Q. 
+    
