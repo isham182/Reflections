@@ -1,9 +1,38 @@
 Q. When would you want to use a remote repository rather than keeping all your work local?
-A. You would want to use a remote depository when you are working from a different computer, or someone else is also making changes
 
-Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-A. If Git always automatically updated everytime someone made a repository you might end up with a version on your computer you dont want.
-   So being able to manually pull allows you to do so only when you know its safe to do so.
+A. You would want to use a remote depository when you are working from a different computer, 
+   or someone else is also making changes
 
-Q. 
+Q. Why might you want to always pull changes manually rather than having Git automatically 
+   stay up-to-date with your remote repository?
+
+A. If Git always automatically updated everytime someone made a repository you might end up 
+   with a version on your computer you dont want. So being able to manually pull allows you 
+   to do so only when you know its safe to do so.
+
+Q. Describe the differences between forks, clones, and branches. When would you use one 
+   instead of another?
+
+A. You would want to use a fork when you want to use someone else's repository but dont
+   have permission so you use fork so it shows the original author. When you have permission 
+   to get a repository you then can clone it. You would use a branch when you are just trying
+   something different in a repository, but don't want to change the actual repository.
+
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A. If you have the last known state of the remote locally, you can be offline and update it 
+   knowing you have the latest version of that remote.
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A. You would have to send zip files back and forth with whoever you were working with. It would be easier
+   if only one person made a change at a time, it would be harder if multiple people were working on the 
+   same project and you would have to one at a time integrate what you had into a master copy.
+
+Q. When would you want to make changes in a separate branch rather than directly in master? 
+   What benefits does each approach have?
+
+A. Making changes in a different branch keeps the master branch untouched. You can also send pull requests
+   with that seperate branch so whoever is working with you, can see the changes and accept them before
+   they are merged with the master branch.
     
